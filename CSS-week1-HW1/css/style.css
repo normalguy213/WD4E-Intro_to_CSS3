@@ -1,4 +1,57 @@
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 155%;
+  background-color: antiquewhite;
+}
+
+header{
+  background-color:rgb(245, 156, 183);
+  text-align: center;
+  font-size: 70%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+  background-color:rgb(180, 255, 230);
+}
+
+main{
+  background-color: darkgrey;
+}
+
+img{
+  display: inline-block;
+  width: 9%;
+  height: 10%;
+  
+}
+
+footer{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60%;
+  background-color: burlywood;
+}
+
+li{
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  height: 50px;
+  background-color:rgb(99, 255, 99);
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color:rgb(92, 37, 187);
+}
+
+p{
+  color:rgb(50, 33, 49);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 110%;
+  line-height: 90%;
 }
