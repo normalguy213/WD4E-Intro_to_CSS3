@@ -1,6 +1,26 @@
-/* main {
+main {
   min-height: 100px;
-} */
+}
+
+nav a {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+
+
+
 
 /* nav a {
   text-decoration: none;
@@ -18,8 +38,8 @@
     list-style-type: none;
 } */
 
-/* .current {
+.current {
   text-transform: uppercase;
   background-color: lightgray;
   border-bottom: 2px solid black;
-} */
+}

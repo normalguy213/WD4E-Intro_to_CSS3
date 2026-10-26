@@ -13,14 +13,14 @@ a {
 
 /*When mouse hovers over link*/
 a:hover{  
-    background: #B3B3B3;
-    color: #0006CC;
+    background: #ffabab;
+    color: #7f83ff;
 }
 
 /*When user tabs to this link*/
 a:focus{ 
-    background: #B3B3B3;
-    color: #0006CC;
+    background: #2cffdf;
+    color: #00ff1a;
 }
 
 /*When user clicks and holds mouse button on this link*/

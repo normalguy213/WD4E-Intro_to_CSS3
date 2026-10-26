@@ -36,10 +36,10 @@ div{
 
 main{
   /* Set the display display */
-  
+  display: grid;
   /* Set the template columns */
-
+  grid-template-columns: 30% 30% 30%;
   /* Set the justification  */
-  
+  justify-content: center;
 }
 
