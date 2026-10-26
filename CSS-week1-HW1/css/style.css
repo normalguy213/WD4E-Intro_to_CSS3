@@ -13,6 +13,14 @@ header{
 
 nav{
   background-color:rgb(180, 255, 230);
+  display: inline-block;
+  width: 80%;
+}
+
+nav img{
+  width: 10%;
+  position:relative;
+
 }
 
 main{
@@ -33,7 +41,25 @@ footer{
   background-color: burlywood;
 }
 
-li{
+.grid{
+  display:grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img{
+  width: 100%;
+}
+
+.flex {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* li{
   display: inline-block;
   width: 32%;
   text-align: center;
@@ -41,7 +67,7 @@ li{
   background-color:rgb(99, 255, 99);
   line-height: 50px;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
